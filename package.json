@@ -1,0 +1,26 @@
+{
+  "name": "stream-one-project",
+  "version": "1.0.0",
+  "description": "stream one front end development project for the code institute",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeBirtwistle/Stream-One-Project.git"
+  },
+  "keywords": [
+    "stream",
+    "one",
+    "project",
+    "front",
+    "end"
+  ],
+  "author": "Michael Birtwistle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeBirtwistle/Stream-One-Project/issues"
+  },
+  "homepage": "https://github.com/MikeBirtwistle/Stream-One-Project#readme"
+}
