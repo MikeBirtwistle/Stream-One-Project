@@ -1,0 +1,29 @@
+{
+  "name": "stream-one-project",
+  "description": "stream one front end development project for the code institute",
+  "main": "index.html",
+  "authors": [
+    "Michael Birtwistle"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "stream",
+    "one",
+    "project",
+    "front",
+    "end"
+  ],
+  "homepage": "https://github.com/MikeBirtwistle/Stream-One-Project",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.3",
+    "angular-route": "^1.6.3"
+  }
+}
