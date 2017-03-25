@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 	<html>
-		<head>
+		<head ng-app>
         	<title>Drake</title>
         	<base href="/">
         	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
@@ -11,11 +11,29 @@
 	   		<script type="text/javascript" src="bower_components/a0-angular-storage/dist/angular-storage.js"></script>
 
         	<style type="text/css">
-    	   		
+    	   		#ovo {
+                    display: inline-block;
+                }
         	</style>
     	</head>
     	
     	<body>
-	   		
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/"> <img id="ovo" src="images/ovo.jpg">Presents - Drake</a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/albums">Albums</a></li>
+                        <li><a href="/tour-dates">Tour Dates</a></li>
+                        <li><a href="/enquiries">Enquiries</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div ng-view>
+
+            </div>	   		
     	</body>
 	</html>
