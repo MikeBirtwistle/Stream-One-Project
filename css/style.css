@@ -1,6 +1,7 @@
 body {
 	background-image: url(../images/drake.png);
 	background-size: cover;
+	padding-top: 50px;
 }
 
 .navbar-default {
