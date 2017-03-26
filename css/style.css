@@ -2,3 +2,26 @@ body {
 	background-image: url(../images/drake.png);
 	background-size: cover;
 }
+
+.navbar-default {
+	background-color:#000000;
+	border: none;
+
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+	font-size: xx-large;
+	font-family: 'Cookie', cursive;
+
+}
+
+.nav.navbar-nav.navbar-right li a {
+	color: #fff;
+}
+
+li {
+	font-size: xx-large;
+	font-family: 'Cookie', cursive;
+}
+

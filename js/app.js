@@ -1,6 +1,6 @@
-angular.module('DrakeProject', ['ngRoute']);
+angular.module('DrakeApp', ['ngRoute']);
  
-angular.module('DrakeProject').config(function($locationProvider, $routeProvider) {
+angular.module('DrakeApp').config(function($locationProvider, $routeProvider) {
     $locationProvider.html5Mode(true);
  
     $routeProvider.when('/', {
@@ -8,13 +8,13 @@ angular.module('DrakeProject').config(function($locationProvider, $routeProvider
     })
     .when('/about', {
         templateUrl: 'templates/about.html',
-    });
+    })
     .when('/albums', {
         templateUrl: 'templates/albums.html',
-    });
+    })
     .when('/tour-dates', {
         templateUrl: 'templates/tour-dates.html',
-    });
+    })
     .when('/enquiries', {
         templateUrl: 'templates/enquiries.html',
     });
