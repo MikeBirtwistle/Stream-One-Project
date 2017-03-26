@@ -2,7 +2,13 @@ body {
 	background-image: url(../images/drake.png);
 	background-size: cover;
 	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-right:auto;
+	margin-left:auto;
+
 }
+
+/* Navigation Styling */
 
 .navbar-default {
 	background-color:#000000;
@@ -17,12 +23,22 @@ body {
 
 }
 
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+	color:#fff;
+}
+
 .nav.navbar-nav.navbar-right li a {
 	color: #fff;
+}
+
+.nav.navbar-nav.navbar-right li a:hover, .nav.navbar-nav.navbar-right li a:focus {
+	background-color:#000000;
+	color:#ff0000;
 }
 
 li {
 	font-size: xx-large;
 	font-family: 'Cookie', cursive;
 }
+
 
