@@ -23,12 +23,18 @@ body {
 
 }
 
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
-	color:#fff;
+.navbar-default .navbar-brand:hover {
+	color: #ff0000;
+}
+
+.navbar-default .navbar-brand:focus{
+	color :#fff;
 }
 
 .nav.navbar-nav.navbar-right li a {
 	color: #fff;
+	font-size: xx-large;
+	font-family: 'Cookie', cursive;
 }
 
 .nav.navbar-nav.navbar-right li a:hover, .nav.navbar-nav.navbar-right li a:focus {
@@ -36,9 +42,10 @@ body {
 	color:#ff0000;
 }
 
-li {
-	font-size: xx-large;
-	font-family: 'Cookie', cursive;
+p {
+	color :#fff;
 }
 
-
+.container-fluid {
+	padding-top:10px;
+}
