@@ -98,7 +98,11 @@ footer ul {
 }
 
 .fa-instagram:hover{
-	color: linear-gradient(45deg, #fccc63 25%, #fbad50 50%, #cd486b 75%, #8a3ab9 100%);
+	
+	background-image: linear-gradient(45deg, #fccc63, #fbad50, #e95950, #cd486b, #8a3ab9, #4c68d7);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
 }
 
 .fa-snapchat {
