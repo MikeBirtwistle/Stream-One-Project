@@ -74,38 +74,47 @@ footer ul {
     margin-top: 2px;
 }
 
-.fa-twitter-square {
+.fa-twitter {
 	margin-right:10px;
 	color: #fff;
 }
 
-.fa-twitter-square:hover{
+.fa-twitter:hover{
 	color: #00aced;
 }
 
-.fa-facebook-square {
+.fa-facebook {
 	margin-right:10px;
 	color: #fff;
 }
 
-.fa-facebook-square:hover{
+.fa-facebook:hover{
 	color: #3b5998;
 }
 
-.fa-snapchat-square {
+.fa-instagram {
 	margin-right:10px;
 	color: #fff;
 }
 
-.fa-snapchat-square:hover{
+.fa-instagram:hover{
+	color: linear-gradient(45deg, #fccc63 25%, #fbad50 50%, #cd486b 75%, #8a3ab9 100%);
+}
+
+.fa-snapchat {
+	margin-right:10px;
+	color: #fff;
+}
+
+.fa-snapchat:hover{
 	color: #fffc00;
 }
 
-.fa-youtube-square {
+.fa-youtube {
 	margin-right:5px;
 	color: #fff;
 }
 
-.fa-youtube-square:hover{
+.fa-youtube:hover{
 	color: #cb2027;
 }
