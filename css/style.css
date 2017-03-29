@@ -1,9 +1,16 @@
-/* Main Body Styling */
+/* Main Styling */
+
+html {
+	height: 100%
+	width: 100%;
+}
 
 body {
-	background-image: url(../images/drake.png);
+	background-image: url(../images/drake.jpg);
+	background-color: #000000;
 	background-size: cover;
-	padding-top: 50px;
+	background-width: 100%;
+	padding-top: 30px;
 	padding-bottom: 50px;
 	margin-right:auto;
 	margin-left:auto;
@@ -12,6 +19,16 @@ body {
 
 p {
 	color :#fff;
+}
+
+.HomeP {
+	font-family: 'Kaushan Script', cursive;
+}
+
+.jumbotron {
+	background-color: transparent;
+	color: #fff;
+	text-align: center;
 }
 
 /* Navigation Styling */
@@ -25,7 +42,7 @@ p {
 .navbar-default .navbar-brand {
 	color: #fff;
 	font-size: xx-large;
-	font-family: 'Cookie', cursive;
+	font-family: 'Cookie', cursive, sans-serif;
 
 }
 
@@ -121,4 +138,17 @@ footer ul {
 
 .fa-youtube:hover{
 	color: #cb2027;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 450px) {
+	.navbar-default .navbar-brand {
+		font-size: x-large;
+	}
+
+	body {
+		background-image: url(../images/drake.png);
+		background-color :#000000;
+	}
 }

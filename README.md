@@ -1,1 +1,1 @@
-# Stream One - Front End Development Project
+# Stream One - Front End Project
