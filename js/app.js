@@ -12,8 +12,8 @@ angular.module('DrakeApp').config(function($locationProvider, $routeProvider) {
     .when('/albums', {
         templateUrl: 'templates/albums.html',
     })
-    .when('/tour-dates', {
-        templateUrl: 'templates/tour-dates.html',
+    .when('/tourinfo', {
+        templateUrl: 'templates/tourinfo.html',
     })
     .when('/enquiries', {
         templateUrl: 'templates/enquiries.html',

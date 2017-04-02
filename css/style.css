@@ -9,8 +9,9 @@ body {
 	background-image: url(../images/drake.jpg);
 	background-color: #000000;
 	background-size: cover;
-	background-width: 100%;
 	padding-top: 30px;
+	margin-bottom: 50px;
+	margin-top: 50px;
 	padding-bottom: 50px;
 	margin-right:auto;
 	margin-left:auto;
@@ -21,6 +22,7 @@ p {
 	color :#fff;
 }
 
+
 .HomeP {
 	font-family: 'Kaushan Script', cursive;
 }
@@ -29,6 +31,27 @@ p {
 	background-color: transparent;
 	color: #fff;
 	text-align: center;
+}
+
+.col-sm-4 p {
+	font-size: large;
+}
+
+.col-sm-4 p a {
+	color: #ff0000;
+}
+
+.col-sm-6 p {
+	font-size: large;
+}
+
+.col-sm-6 p a {
+	color: #ff0000;
+}
+
+#Pic img:first-child {
+	height: 510px;
+	width: 850px;
 }
 
 /* Navigation Styling */
@@ -142,7 +165,8 @@ footer ul {
 
 /* Media Queries */
 
-@media screen and (max-width: 450px) {
+@media (min-width: 200px) and (max-width: 450px) {
+	
 	.navbar-default .navbar-brand {
 		font-size: x-large;
 	}
@@ -150,5 +174,24 @@ footer ul {
 	body {
 		background-image: url(../images/drake.png);
 		background-color :#000000;
+		margin-top: 30px;
 	}
+}
+
+@media (min-width: 451px) and (max-width: 700px) {
+
+	body {
+		background-image: url(../images/drake3.jpg);
+		margin-top: 30px;
+	}
+
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+
+	body {
+		background-image: url(../images/drake.png);
+		margin-top: 30px;
+	}
+
 }
