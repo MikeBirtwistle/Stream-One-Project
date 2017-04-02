@@ -185,8 +185,17 @@ footer ul {
 		max-width: 100%;
 		height:auto;
 	}
-}
 
+	footer ul {
+    	font-size:20px;
+    	text-align: center;
+    	padding-top:8px;
+    }
+
+    .fa-youtube {
+		margin-right:0px;
+
+}
 
 @media (min-width: 451px) and (max-width: 700px) {
 
@@ -194,6 +203,16 @@ footer ul {
 		background-image: url(../images/drake3.jpg);
 		margin-top: 30px;
 	}
+
+	#Picsize {
+		max-width: 100%;
+	}
+
+	#Pic img:first-child {
+		max-width: 100%;
+		height:auto;
+	}
+
 
 }
 
