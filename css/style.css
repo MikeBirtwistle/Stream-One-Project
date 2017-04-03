@@ -165,7 +165,7 @@ footer ul {
 
 /* Media Queries */
 
-@media (min-width: 200px) and (max-width: 450px) {
+@media (min-width: 100px) and (max-width: 480px) {
 	
 	.navbar-default .navbar-brand {
 		font-size: x-large;
@@ -187,17 +187,22 @@ footer ul {
 	}
 
 	footer ul {
-    	font-size:20px;
+    	font-size:25px;
     	text-align: center;
-    	padding-top:8px;
+    	padding-top:3px;
     }
 
     .fa-youtube {
 		margin-right:0px;
+	}
+
+	footer p {
+		font-size: 12px;
+	}
 
 }
 
-@media (min-width: 451px) and (max-width: 700px) {
+@media (min-width: 481px) and (max-width: 700px) {
 
 	body {
 		background-image: url(../images/drake3.jpg);
@@ -213,7 +218,6 @@ footer ul {
 		height:auto;
 	}
 
-
 }
 
 @media (min-width: 701px) and (max-width: 900px) {
@@ -223,4 +227,41 @@ footer ul {
 		margin-top: 30px;
 	}
 
+	.navbar-default .navbar-brand {
+		font-size: x-large;
+	}
+
+	.nav.navbar-nav.navbar-right li a {
+		font-size: x-large;
+
+	}
+
+	#Picsize {
+		max-width: 100%;
+	}
+
+	#Pic img:first-child {
+		max-width: 100%;
+		height:auto;
+	}
+
 }
+
+@media (min-width: 901px) and (max-width: 1050px) {
+
+	body {
+		background-image: url(../images/drake6.jpg);
+	}
+
+	#Picsize {
+		max-width: 100%;
+	}
+
+	#Pic img:first-child {
+		max-width: 100%;
+		height:auto;
+	}
+
+	#Tabsize {
+		font-size:small;
+	}
