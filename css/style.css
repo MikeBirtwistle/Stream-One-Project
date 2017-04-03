@@ -23,7 +23,7 @@ p {
 }
 
 
-.HomeP {
+.homeP {
 	font-family: 'Kaushan Script', cursive;
 }
 
@@ -49,7 +49,7 @@ p {
 	color: #ff0000;
 }
 
-#Pic img:first-child {
+#pic img:first-child {
 	height: 510px;
 	width: 850px;
 }
@@ -163,6 +163,34 @@ footer ul {
 	color: #cb2027;
 }
 
+/* Albums */
+
+.carousel-inner img {
+	margin:auto;
+}
+
+.carousel-caption {
+	position:relative;
+	left:auto;
+	right:auto;
+	font-size:30px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+#album {
+	height: 370px;
+	width: 370px;
+}
+
+.nav-pills {
+	background-color: #000000;
+}
+
+.nav-pills a {
+	color: #fff;
+	font-size:15px;
+}
+
 /* Media Queries */
 
 @media (min-width: 100px) and (max-width: 480px) {
@@ -177,11 +205,11 @@ footer ul {
 		margin-top: 30px;
 	}
 
-	#Picsize {
+	#picsize {
 		max-width: 100%;
 	}
 
-	#Pic img:first-child {
+	#pic img:first-child {
 		max-width: 100%;
 		height:auto;
 	}
@@ -209,11 +237,11 @@ footer ul {
 		margin-top: 30px;
 	}
 
-	#Picsize {
+	#picsize {
 		max-width: 100%;
 	}
 
-	#Pic img:first-child {
+	#pic img:first-child {
 		max-width: 100%;
 		height:auto;
 	}
@@ -236,11 +264,11 @@ footer ul {
 
 	}
 
-	#Picsize {
+	#picsize {
 		max-width: 100%;
 	}
 
-	#Pic img:first-child {
+	#pic img:first-child {
 		max-width: 100%;
 		height:auto;
 	}
@@ -253,15 +281,15 @@ footer ul {
 		background-image: url(../images/drake6.jpg);
 	}
 
-	#Picsize {
+	#picsize {
 		max-width: 100%;
 	}
 
-	#Pic img:first-child {
+	#pic img:first-child {
 		max-width: 100%;
 		height:auto;
 	}
 
-	#Tabsize {
+	#tabsize {
 		font-size:small;
 	}
