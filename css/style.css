@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	background-image: url(../images/drake.jpg);
+	/*background-image: url(../images/drake.jpg);*/
 	background-color: #000000;
 	background-size: cover;
 	padding-top: 30px;
@@ -25,12 +25,25 @@ p {
 
 .homeP {
 	font-family: 'Kaushan Script', cursive;
+
 }
 
 .jumbotron {
 	background-color: transparent;
 	color: #fff;
 	text-align: center;
+}
+
+#homePic {
+	position:relative;
+	margin-left:730px;
+	margin-top:-235px;
+	z-index:-1;
+	-moz-transform:scaleX(-1);
+	-o-transform:scaleX(-1);
+	-webkit-transform:scaleX(-1);
+	transform:scaleX(-1);
+
 }
 
 .col-md-4 p {
@@ -53,6 +66,7 @@ p {
 	height: 510px;
 	width: 850px;
 }
+
 
 /* Navigation Styling */
 
@@ -165,8 +179,17 @@ footer ul {
 
 /* Albums */
 
-.carousel-inner img {
-	margin:auto;
+.image1, .image2 {
+	display: inline-block;
+   	text-align:center;
+}
+
+.image1 {
+	margin-left: 250px
+}
+
+.image2 {
+	margin-left: 80px;
 }
 
 .carousel-caption {
@@ -176,6 +199,7 @@ footer ul {
 	font-size:30px;
 	font-family: 'Kaushan Script', cursive;
 }
+
 
 #album {
 	height: 370px;
