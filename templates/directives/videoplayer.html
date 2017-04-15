@@ -37,7 +37,7 @@
             <div class="modal-body">
                 <div class="modal-video">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <video controls class="embed-responsive-item" src="../video/hotline.mp4" webkitallowfullscreen mozallowfullscreen allowfullscreen></video>
+                        <video id="vid1" controls class="embed-responsive-item" src="../video/hotline.mp4" webkitallowfullscreen mozallowfullscreen allowfullscreen></video>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
             <div class="modal-body">
                 <div class="modal-video">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <video controls class="embed-responsive-item" src="../video/onedance.mp4" webkitallowfullscreen mozallowfullscreen allowfullscreen></video>
+                        <video id="vid2" controls class="embed-responsive-item" src="../video/onedance.mp4" webkitallowfullscreen mozallowfullscreen allowfullscreen></video>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
             <div class="modal-body">
                 <div class="modal-video">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <video controls class="embed-responsive-item" src="../video/fakelove.mp4" webkitallowfullscreen mozallowfullscreen allowfullscreen></video>
+                        <video id="vid3" controls class="embed-responsive-item" src="../video/fakelove.mp4" webkitallowfullscreen mozallowfullscreen allowfullscreen></video>
                     </div>
                 </div>
             </div>
@@ -90,6 +90,6 @@
 	$('.launch-modal').on('click', function(e){
 	    e.preventDefault();
 	    $( '#' + $(this).data('modal-id') ).modal();
-	});
+	}); 
 
 </script>

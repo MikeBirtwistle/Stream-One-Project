@@ -306,12 +306,6 @@ td {
 	width:33%;
 }
 
-#tickets a{
-	border:solid 2px;
-}
-
-
-
 
 /**************************** Media Queries ****************************/
 
@@ -464,7 +458,6 @@ td {
 @media (min-width: 701px) and (max-width: 900px) {
 
 	body {
-		background-image: url(../images/drake.png);
 		margin-top: 30px;
 	}
 
@@ -493,7 +486,7 @@ td {
 @media (min-width: 901px) and (max-width: 1050px) {
 
 	body {
-		background-image: url(../images/drake6.jpg);
+		
 	}
 
 	#picsize {
