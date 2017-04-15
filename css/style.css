@@ -253,6 +253,64 @@ footer ul {
 
 /******************************** Audio ********************************/
 
+#amazingaudioplayer-1 {
+	padding-top:135px;
+}
+
+/******************************** Video ********************************/
+
+.col-xs-12 #vidLink{
+	display:flex;
+	flex:1;
+	justify-content:center;
+	text-align:center;
+	color:#fff;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.col-md-4 #vidLink{
+	display:flex;
+	flex:1;
+	justify-content:center;
+	text-align:center;
+	color:#fff;
+	margin-left:5px;
+}
+
+/***************************** Tour Info *******************************/
+
+
+.panel-default > .panel-heading {
+	background-color:#000000;
+}
+
+.panel-title > a {
+	color:#fff;
+	display:flex;
+	flex:1;
+	justify-content:center;
+}
+
+#tourInfo {
+	width:100%;
+	text-align:center;
+}
+
+th {
+	text-align:center;
+}
+
+td {
+	text-align:center;
+	width:33%;
+}
+
+#tickets a{
+	border:solid 2px;
+}
+
+
 
 
 /**************************** Media Queries ****************************/
@@ -303,6 +361,45 @@ footer ul {
 		font-size: 12px;
 	}
 
+	#amazingaudioplayer-1 {
+		padding-top:110px;
+	}
+
+	#album {
+		height: 200px;
+		width: 200px;
+	}
+
+	.image1 {
+		display:flex;
+		flex:1;
+		justify-content: center;
+		margin-left: auto;
+		margin-right:auto;
+		padding-top:15px;
+	}
+
+	.image2 {
+		display:flex;
+		flex:1;
+		justify-content: center;
+		margin-left: auto;
+		margin-right:auto;
+	}
+
+	.carousel-caption {
+		font-size:20px;
+	}
+
+	.nav-pills a {
+		font-size:14px;
+		margin-top: 5px;
+	}
+
+	.col-xs-12 #vidLink{
+		margin-top:80px;
+	}
+
 }
 
 /**************************** Landscape Phone ***************************/
@@ -310,7 +407,6 @@ footer ul {
 @media (min-width: 481px) and (max-width: 700px) {
 
 	body {
-		background-image: url(../images/drake3.jpg);
 		margin-top: 30px;
 	}
 
@@ -324,7 +420,41 @@ footer ul {
 	}
 
 	#homePic {
-		display:none;
+		display:flex;
+		float:right;
+		width:47%;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:-200px;
+	}
+
+	#album {
+		width:180px;
+		height:auto;
+		text-align:none;
+		margin-top:20px;
+	}
+
+	.image1 {
+		margin-left:120px;
+	}
+
+	.carousel-caption {
+		font-size:15px;
+	}
+
+	.nav-pills a {
+		font-size:14px;
+		margin-top: 5px;
+	}
+
+	#amazingaudioplayer-1 {
+		padding-top:30px;
+	}
+
+	.col-xs-12 #vidLink{
+		margin-top:40px;
 	}
 
 }
