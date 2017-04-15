@@ -1,25 +1,55 @@
 <!-- Audio Player -->
 
-<!-- Amazing Audio Plugin -->
+<div id="audioContainer">
 
-<div id="amazingaudioplayer-1" style="display:block;position:relative;width:300px;height:auto;margin:0px auto 0px;">
-    
-    <ul class="amazingaudioplayer-audios" style="display:none;">
-        <li data-artist="Drake And Wizkid" data-title="Closer" data-album="" data-info="" data-image="images/drakewizkid.jpg" data-duration="213">
-            <div class="amazingaudioplayer-source" data-src="audio/closer.mp3" data-type="audio/mpeg" />
-            <div class="amazingaudioplayer-source" data-src="audio/closer.ogg" data-type="audio/ogg" />
-        </li>
-        <li data-artist="Drake" data-title="Just Hold On (Kastle Remix)" data-album="" data-info="" data-image="images/holdon.png" data-duration="276">
-            <div class="amazingaudioplayer-source" data-src="audio/holdon.mp3" data-type="audio/mpeg" />
-            <div class="amazingaudioplayer-source" data-src="audio/holdon.ogg" data-type="audio/ogg" />
-        </li>
-        <li data-artist="Drake And Rihanna" data-title="Take Care" data-album="" data-info="" data-image="/images/drake7.jpg" data-duration="249">
-            <div class="amazingaudioplayer-source" data-src="audio/takecare.mp3" data-type="audio/mpeg" />
-            <div class="amazingaudioplayer-source" data-src="audio/takecare.ogg" data-type="audio/ogg" />
-        </li>
+    <!-- Poster Image -->
+
+    <figure>
+        <img id="audioPic" src="images/drake7.jpg">
+    </figure>
+
+    <!-- Audio Controls -->
+
+    <audio src="" controls id="audioPlayer">
+        Sorry, your browser does not support this audio playlist!
+    </audio>
+
+    <!-- Audio Playlist -->
+
+    <ul id="playlist">
+        <li class="current-song"> <a href="audio/takecare.mp3">Take Care </a> </li>
+        <li> <a href="audio/holdon.mp3">Just Hold On (Kastle Remix) </a> </li>
+        <li> <a href="audio/closer.mp3">Closer </a> </li>
     </ul>
 
-    <script src="js/amazingaudioplayer.js"></script>
-    <script src="js/initaudioplayer-1.js"></script>
-    
 </div>
+
+<!-- Script For Playlist Functionality -->
+
+<script>
+
+    audioPlayer ();
+    function audioPlayer(){
+        var currentSong = 0;
+        $("#audioPlayer")[0].src = $("#playlist li a")[0];
+        $("#playlist li a").click(function(e){
+           e.preventDefault(); 
+           $("#audioPlayer")[0].src = this;
+           $("#audioPlayer")[0].play();
+           $("#playlist li").removeClass("current-song");
+            currentSong = $(this).parent().index();
+            $(this).parent().addClass("current-song");
+        });
+        
+        $("#audioPlayer")[0].addEventListener("ended", function(){
+           currentSong++;
+            if(currentSong == $("#playlist li a").length)
+                currentSong = 0;
+            $("#playlist li").removeClass("current-song");
+            $("#playlist li:eq("+currentSong+")").addClass("current-song");
+            $("#audioPlayer")[0].src = $("#playlist li a")[currentSong].href;
+            $("#audioPlayer")[0].play();
+        });
+    }
+
+</script>

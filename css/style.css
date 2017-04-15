@@ -253,9 +253,31 @@ footer ul {
 
 /******************************** Audio ********************************/
 
-#amazingaudioplayer-1 {
-	padding-top:135px;
+#playlist {
+    list-style:none;
 }
+
+#playlist li a {
+    color:#fff;
+    text-decoration:none;
+    margin-left:-40px;
+}
+
+#playlist .current-song a {
+    color:#ff0000
+}
+
+#audioPic {
+	width:250px;
+	height:auto;
+}
+
+#audioContainer {
+	display:flex
+	flex:1;
+	text-align:center;
+}
+
 
 /******************************** Video ********************************/
 
@@ -394,6 +416,12 @@ td {
 		margin-top:80px;
 	}
 
+	#audioPic {
+		width:200px;
+		height:auto;
+		margin-top:30px;
+	}
+
 }
 
 /**************************** Landscape Phone ***************************/
@@ -451,6 +479,12 @@ td {
 		margin-top:40px;
 	}
 
+	#audioPic {
+		height:150px;
+		width:auto;
+		margin-top:8px;
+	}
+
 }
 
 /**************************** Portrait Tablet ***************************/
@@ -486,7 +520,7 @@ td {
 @media (min-width: 901px) and (max-width: 1050px) {
 
 	body {
-		
+		margin-top:30px;
 	}
 
 	#picsize {
