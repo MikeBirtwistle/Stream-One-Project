@@ -22,6 +22,7 @@ angular.module('DrakeApp').config(function($locationProvider, $routeProvider) {
 
     .when('/enquiries', {
         templateUrl: 'templates/enquiries.html',
+        controller: 'EnquiriesController'
     })
 
     .otherwise( {

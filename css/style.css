@@ -300,6 +300,42 @@ footer ul {
 	margin-left:5px;
 }
 
+video {
+	height:500px;
+	width:auto;
+	padding-left:90px;
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=7);
+    opacity: 0.7;
+}
+ 
+.modal-content {
+    background: none;
+    border: 0;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+ 
+.modal-body {
+    padding: 0 25px 25px 25px;
+}
+ 
+.modal-header, .modal-footer {
+    border: 0;
+}
+ 
+.modal-header .close {
+    float: right;
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
+}
+
 /***************************** Tour Info *******************************/
 
 
@@ -328,6 +364,28 @@ td {
 	width:33%;
 }
 
+/**************************** Enquiries ********************************/
+
+legend {
+	color:#fff;
+	text-align:center;
+}
+
+label {
+	color:#fff;
+	font-size:large;
+	font-family: 'Roboto', sans-serif;
+}
+
+.containerForm {
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#form {
+	text-align:center;
+}
 
 /**************************** Media Queries ****************************/
 
@@ -422,6 +480,10 @@ td {
 		margin-top:30px;
 	}
 
+	.containerForm {
+		width:80%;
+	}
+
 }
 
 /**************************** Landscape Phone ***************************/
@@ -483,6 +545,10 @@ td {
 		height:150px;
 		width:auto;
 		margin-top:8px;
+	}
+
+	.containerForm {
+		width:80%;
 	}
 
 }
