@@ -6,20 +6,22 @@ angular.module('RouteControllers', [])
         $scope.title = "Welcome To The World Of Drake"
     })
 
+    /* Enquiries Controller */
+
     .controller('EnquiriesController', function($scope) {
  
         $scope.enquiryUser = {};
  
         $scope.submitForm = function() {
             if ($scope.enquiryForm.$valid) {
-                $scope.enquiryUser.firstname = $scope.user.firstname;
-                $scope.enquiryUser.lastname = $scope.user.lastname;
-                $scope.enquiryUser.email = $scope.user.email;
-                $scope.enquiryUser.eventtype = $scope.user.eventtype;
-                $scope.enquiryUser.date = $scope.user.date;
+                $scope.enquiry.firstname = $scope.firstname;
+                $scope.enquiry.lastname = $scope.lastname;
+                $scope.enquiry.email = $scope.email;
+                $scope.enquiry.eventtype = $scope.eventtype;
+                $scope.enquiry.date = $scope.date;
             }
 
-            alert("Thanks, we will get back to you as soon as possible");
+            alert("Thanks, we will get back to you as soon as possible!");
                 
         }
     });
