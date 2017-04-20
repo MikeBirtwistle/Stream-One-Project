@@ -397,6 +397,16 @@ input {
 	text-align:center;
 }
 
+.invalid-form {
+	text-align:center;
+	color:#fff;
+}
+
+textarea {
+	text-align:center;
+	height:400px;
+}
+
 /**************************** Media Queries ****************************/
 
 /**************************** Portrait Phone ***************************/
