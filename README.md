@@ -23,3 +23,6 @@ This app is designed to be a source if information for the famous rapper, Drake.
 
 Along with most of the app being written by myself, i have also relied on [Stack Overflow](https://stackoverflow.com/) in order to help me understand and fix any problems i may have encoutered. I also compiled my navbar-collapse.js from different posts on S.O, and have used [Google](https://google.com/) to help with other areas of the project.
 
+### The app can be viewed here - 
+
+https://MikeBirtwistle.github.io/Stream-One-Project
