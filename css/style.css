@@ -455,10 +455,6 @@ textarea {
 		font-size: 12px;
 	}
 
-	#amazingaudioplayer-1 {
-		padding-top:110px;
-	}
-
 	#album {
 		height: 200px;
 		width: 200px;
@@ -502,6 +498,14 @@ textarea {
 
 	.containerForm {
 		width:80%;
+	}
+
+	#vidLink {
+		margin-bottom:0px;
+	}
+
+	.vidPlay {
+		margin-top:2px;
 	}
 
 }
@@ -599,6 +603,52 @@ textarea {
 		height:auto;
 	}
 
+	#homePic {
+		margin-left:20px;
+		margin-top:-140px;
+		height:500px;
+		width:auto;
+	}
+
+	#Album {
+		height:330px;
+		width:auto;
+	}
+
+	.image1 {
+		display:flex;
+		flex:1;
+		justify-content: center;
+		margin-left: auto;
+		margin-right:auto;
+		padding-top:15px;
+	}
+
+	.image2 {
+		display:flex;
+		flex:1;
+		justify-content: center;
+		margin-left: auto;
+		margin-right:auto;
+	}
+
+	#audioPic {
+		width:350px;
+		height:auto;
+	}
+
+	#audioContainer {
+		margin-top:80px;
+	}
+
+	audio {
+		width:46%;
+	}
+
+	#playlist li a {
+		font-size:x-large;
+	}
+
 }
 
 /**************************** Landscape Tablet ***************************/
@@ -620,4 +670,46 @@ textarea {
 
 	#tabsize {
 		font-size:small;
+	}
+
+	#homePic {
+		margin-left:420px;
+		margin-top:-200px;
+	}
+
+	#album {
+		width:300px;
+		height:auto;
+		text-align:center;
+		margin-top:20px;
+		margin-left:20px;
+	}
+
+	#album {
+		width:350px;
+		height:auto;
+		text-align:none;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+
+	.image1 {
+		margin-left:90px;
+	}
+
+	#audioPic {
+		width:290px;
+		height:auto;
+	}
+
+	#audioContainer {
+		margin-top:35px;
+	}
+
+	#playlist li a {
+		font-size:large;
+	}
+
+	audio {
+		width:28%;
 	}

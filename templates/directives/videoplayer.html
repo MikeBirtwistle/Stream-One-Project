@@ -42,7 +42,7 @@
             <div class="modal-body">
                 <div class="modal-video">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <video preload="auto" controls class="embed-responsive-item" src="../video/hotlinebling.mp4#t=20.5" webkitallowfullscreen mozallowfullscreen allowfullscreen></video>
+                        <video preload="auto" controls class="embed-responsive-item" src="video/hotlinebling.mp4#t=20.5" webkitallowfullscreen mozallowfullscreen allowfullscreen></video>
                     </div>
                 </div>
             </div>
@@ -92,9 +92,48 @@
 
 <script>
 
+    /* Launches modals on click of the corresponding picture */
+
 	$('.launch-modal').on('click', function(e){
 	    e.preventDefault();
 	    $( '#' + $(this).data('modal-id') ).modal();
-	}); 
+	});
+
+    /* Autoplays the videos on open */
+
+    $('#modal-video1').on('shown.bs.modal', function () {
+        $(this).find('video')[0].play();
+    })
+
+    $('#modal-video2').on('shown.bs.modal', function () {
+        $(this).find('video')[0].play();
+    })
+
+    $('#modal-video3').on('shown.bs.modal', function () {
+        $(this).find('video')[0].play();
+    })
+
+    /* Stops and resets the videos on close */
+
+    $('#modal-video1').modal({
+        show: false
+    }).on('hidden.bs.modal', function(){
+        $(this).find('video')[0].pause();
+        $(this).find('video')[0].load();
+    });
+
+    $('#modal-video2').modal({
+        show: false
+    }).on('hidden.bs.modal', function(){
+        $(this).find('video')[0].pause();
+        $(this).find('video')[0].load();
+    });
+
+    $('#modal-video3').modal({
+        show: false
+    }).on('hidden.bs.modal', function(){
+        $(this).find('video')[0].pause();
+        $(this).find('video')[0].load();
+    });
 
 </script>
