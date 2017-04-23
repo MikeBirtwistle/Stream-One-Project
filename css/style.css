@@ -648,6 +648,10 @@ textarea {
 		font-size:x-large;
 	}
 
+	.containerForm {
+		width:70%;
+	}
+
 }
 
 /**************************** Landscape Tablet ***************************/
@@ -711,4 +715,8 @@ textarea {
 
 	audio {
 		width:28%;
+	}
+
+	.containerForm {
+		width:80%;
 	}
