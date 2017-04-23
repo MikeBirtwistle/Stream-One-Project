@@ -26,4 +26,3 @@ Along with most of the app being written by myself, i have also relied on [Stack
 ### The app can be viewed here - 
 
 https://MikeBirtwistle.github.io/Stream-One-Project
-
