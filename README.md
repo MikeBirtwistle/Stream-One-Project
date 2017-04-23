@@ -21,7 +21,7 @@ This app is designed to be a source if information for the famous rapper, Drake.
 
 ### Other Contributions
 
-Along with most of the app being written by myself, i have also relied on [Stack Overflow](https://stackoverflow.com/) in order to help me understand and fix any problems i may have encoutered. I also compiled my navbar-collapse.js from different posts on S.O, and have used [Google](https://google.com/) to help with other areas of the project.
+Along with most of the app being written by myself, i have recieved large help and guidance from my mentor, and from the slack channel for code institute from other students. I have also relied on [Stack Overflow](https://stackoverflow.com/) in order to help me understand and fix any problems i may have encoutered. I also compiled my navbar-collapse.js from different posts on S.O, and have used [Google](https://google.com/) and youtube to help with other areas of the project, which includes the JQuery for the audio playlist. 
 
 ### The app can be viewed here - 
 
