@@ -83,7 +83,7 @@ footer ul {
     flex: 1;
     flex-direction: row;
     float: right;
-    font-size:35px;
+    font-size:32px;
     margin-top: 2px;
 }
 
@@ -140,6 +140,7 @@ footer ul {
 
 .homeP {
 	font-family: 'Kaushan Script', cursive;
+	display:none;
 }
 
 .jumbotron {
@@ -157,7 +158,12 @@ footer ul {
 	-o-transform:scaleX(-1);
 	-webkit-transform:scaleX(-1);
 	transform:scaleX(-1);
+	display:none;
 
+}
+
+#homeTitle {
+	display:none;
 }
 
 /*************************** About Template ****************************/
@@ -281,6 +287,16 @@ footer ul {
 /******************************** Video ********************************/
 
 #vidLink {
+	display:flex;
+	flex:1;
+	justify-content:center;
+	text-align:center;
+	color:#fff;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#vidA {
 	display:flex;
 	flex:1;
 	justify-content:center;

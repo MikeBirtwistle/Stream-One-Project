@@ -10,19 +10,19 @@
             <a id="vidLink" href="#" class="launch-modal" data-modal-id="modal-video1">
                 <img class="vidPlay" src="images/hotlinebling.png">
             </a>
-            <p id="vidLink">Drake - Hotline Bling</p>
+            <p id="vidA">Drake - Hotline Bling</p>
         </div>
         <div class="col-xs-12 col-lg-4">
             <a id="vidLink" href="#" class="launch-modal" data-modal-id="modal-video2">
                 <img class="vidPlay" src="images/takecare2.jpg">
             </a>
-            <p id="vidLink">Take Care - Drake Ft. Rihanna</p>
+            <p id="vidA">Take Care - Drake Ft. Rihanna</p>
         </div>
         <div class="col-xs-12 col-lg-4">
             <a id="vidLink" href="#" class="launch-modal" data-modal-id="modal-video3">
                 <img class="vidPlay" src="images/over.jpg">
             </a>
-            <p id="vidLink">Drake - Over</p>
+            <p id="vidA" >Drake - Over</p>
         </div>
 
     </div>
@@ -90,50 +90,4 @@
 
 <!-- Modal Script -->
 
-<script>
-
-    /* Launches modals on click of the corresponding picture */
-
-	$('.launch-modal').on('click', function(e){
-	    e.preventDefault();
-	    $( '#' + $(this).data('modal-id') ).modal();
-	});
-
-    /* Autoplays the videos on open */
-
-    $('#modal-video1').on('shown.bs.modal', function () {
-        $(this).find('video')[0].play();
-    })
-
-    $('#modal-video2').on('shown.bs.modal', function () {
-        $(this).find('video')[0].play();
-    })
-
-    $('#modal-video3').on('shown.bs.modal', function () {
-        $(this).find('video')[0].play();
-    })
-
-    /* Stops and resets the videos on close */
-
-    $('#modal-video1').modal({
-        show: false
-    }).on('hidden.bs.modal', function(){
-        $(this).find('video')[0].pause();
-        $(this).find('video')[0].load();
-    });
-
-    $('#modal-video2').modal({
-        show: false
-    }).on('hidden.bs.modal', function(){
-        $(this).find('video')[0].pause();
-        $(this).find('video')[0].load();
-    });
-
-    $('#modal-video3').modal({
-        show: false
-    }).on('hidden.bs.modal', function(){
-        $(this).find('video')[0].pause();
-        $(this).find('video')[0].load();
-    });
-
-</script>
+<script type="text/javascript" src="js/video-player.js" </script>
