@@ -7,14 +7,14 @@ $('.launch-modal').on('click', function(e){
 
 /* Autoplays the videos on open */
 
-$('#modal-video1', '#modal-video2', '#modal-video3').on('shown.bs.modal', function () {
+$(['#modal-video1', '#modal-video2', '#modal-video3']).on('shown.bs.modal', function () {
     $(this).find('video')[0].play();
 })
 
 
 /* Stops and resets the videos on close */
 
-$('#modal-video1', '#modal-video2', '#modal-video3' ).modal({
+$(['#modal-video1', '#modal-video2', '#modal-video3' ]).modal({
     show: false
 }).on('hidden.bs.modal', function(){
     $(this).find('video')[0].pause();
