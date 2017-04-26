@@ -5,20 +5,22 @@ $('.launch-modal').on('click', function(e){
     $( '#' + $(this).data('modal-id') ).modal();
 });
 
-/* Autoplays the videos on open */
+$('#modal-video1, #modal-video2, #modal-video3').modal({
+    show: false
+})
 
-$(['#modal-video1', '#modal-video2', '#modal-video3']).on('shown.bs.modal', function () {
+/* Plays the video on open */
+
+.on('shown.bs.modal', function () {
     $(this).find('video')[0].play();
 })
 
-
 /* Stops and resets the videos on close */
 
-$(['#modal-video1', '#modal-video2', '#modal-video3' ]).modal({
-    show: false
-}).on('hidden.bs.modal', function(){
-    $(this).find('video')[0].pause();
-    $(this).find('video')[0].load();
+.on('hidden.bs.modal', function() {
+    var video = $(this).find('video')[0];
+    video.pause();
+    video.load();
 });
 
     
