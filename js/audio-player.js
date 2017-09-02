@@ -1,5 +1,7 @@
 /* Audio Player Script */
 
+/* Adapted from the Youtube tutorial by MicrotechTutorials */
+
 audioPlayer ();
     function audioPlayer(){
         var currentSong = 0;
